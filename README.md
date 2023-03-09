@@ -2,8 +2,7 @@
 A simple project to manage all my projects and anything i want to share with the world.
 
 # Follow Me 
-<!-- personal website -->
-[![Website](https://klpod221.epizy.com/public/images/logo/logo_black_bg.png)](https://klpod221.epizy.com)
+[![Github](https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/klpod221)
 
 ## Sponsor
 [![Laravel](https://laravel.com/assets/img/components/logo-laravel.svg)](https://laravel.com)
