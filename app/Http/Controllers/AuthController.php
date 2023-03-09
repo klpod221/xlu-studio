@@ -19,6 +19,18 @@ class AuthController extends Controller
 
     public function authenticate(AuthRequest $request)
     {
-        
+        $credentials = $request->only('email', 'password');
+
+        if (auth()->attempt($credentials)) {
+            $request->session()->regenerate();
+
+            return redirect()->intended(route('dashboard'));
+        }
+
+        return back()
+            ->withInput()
+            ->withErrors([
+                'email' => 'The provided credentials do not match our records.',
+            ]);
     }
 }

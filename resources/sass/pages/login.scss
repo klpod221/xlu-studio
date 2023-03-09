@@ -1,0 +1,75 @@
+.auth-page {
+    // center the login form vertically and horizontally
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+    .hidden {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .icon {
+        block-size: 1em;
+        display: inline-block;
+        fill: var(--iconFill);
+        inline-size: 1em;
+        vertical-align: middle;
+    }
+
+    .form {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        margin-bottom: 100px;
+
+        &__field {
+            display: flex;
+
+            &.has-error {
+                border-radius: 0.25rem;
+                border: 1px solid var(--error-color);
+            }
+
+            label {
+                border-radius: 0.25rem 0 0 0.25rem;
+                padding: 1rem;
+                background-color: var(--app-secondary-container);
+            }
+
+            input {
+                flex: 1;
+                padding: 1rem;
+                border-radius: 0 0.25rem 0.25rem 0;
+                background-color: var(--input-background);
+            }
+
+            input[type="submit"] {
+                background-color: var(--app-secondary-container);
+                color: inherit;
+                font-weight: 700;
+                text-transform: uppercase;
+                border-radius: 0.25rem;
+                padding: 1rem;
+                transition: background-color 0.3s;
+
+                &:hover {
+                    background-color: var(--link-color-hover);
+                }
+            }
+        }
+    }
+}

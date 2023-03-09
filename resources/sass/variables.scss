@@ -1,5 +1,9 @@
+$red: #e74c3c;
+
 body {
     --app-container: #f3f6fd;
+    --app-secondary-container: #eee;
+    --input-background: #fff;
     --main-color: #1f1c2e;
     --secondary-color: #4a4a4a;
     --link-color: #1f1c2e;
@@ -21,12 +25,14 @@ body {
     --info-color: #3498db;
 }
 
-body.dark-theme {
+body[data-theme="dark"] {
     --app-container: #111827;
+    --app-secondary-container: #131b2e;
+    --input-background: #1f2937;
     --main-color: #fff;
     --secondary-color: rgba(255, 255, 255, 0.8);
     --link-color: rgba(255, 255, 255, 0.8);
-    --link-color-hover: rgba(195, 207, 244, 0.1);
+    --link-color-hover: #c3cff4;
     --link-color-active-bg: rgba(195, 207, 244, 0.2);
     --projects-section: #1f2937;
     --message-box-hover: #243244;

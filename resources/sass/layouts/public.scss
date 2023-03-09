@@ -1,0 +1,16 @@
+#public-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--app-secondary-container);
+
+    .footer-content {
+        padding: 5px 0;
+        text-align: center;
+    }
+
+    .fa-heart {
+        color: $red;
+    }
+}
