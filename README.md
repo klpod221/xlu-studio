@@ -22,4 +22,4 @@ A simple project to manage all my projects and anything i want to share with the
 8. php artisan serve
 
 ## License
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT) and this project is also licensed under the [MIT license](https://opensource.org/licenses/MIT).
