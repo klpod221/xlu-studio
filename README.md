@@ -5,7 +5,7 @@
 
 ## Sponsor
 [![Laravel](https://laravel.com/assets/img/components/logo-laravel.svg)](https://laravel.com)
-[![InfinityFree](https://infinityfree.net/assets/images/logo.png)](https://infinityfree.net)
+[![InfinityFree](https://www.infinityfree.net/assets/logo-c4b8b48e3dcb6ca5cd6227317693edb013d372a75a06af8f2e7e5c4dcea22354.png)](https://infinityfree.net)
 [![Github](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)](https://github.com)
 
 And Special Thanks to all open source projects that I use in this project.
