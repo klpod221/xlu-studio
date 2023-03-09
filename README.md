@@ -1,7 +1,9 @@
 # XLU Studio
-## A simple project to manage all my projects and anything i want to share with the world.
+A simple project to manage all my projects and anything i want to share with the world.
 
-## Follow Me
+# Follow Me 
+<!-- personal website -->
+[![Website](https://klpod221.epizy.com/public/images/logo/logo_black_bg.png)](https://klpod221.epizy.com)
 
 ## Sponsor
 [![Laravel](https://laravel.com/assets/img/components/logo-laravel.svg)](https://laravel.com)
