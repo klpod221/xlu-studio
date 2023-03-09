@@ -1,6 +1,11 @@
 /node_modules
 /public/hot
 /public/storage
+# ignore all folder in public
+/public/*
+!/public/index.php
+!/public/.htaccess
+!/public/robots.txt
 /storage/*.key
 /vendor
 .env
